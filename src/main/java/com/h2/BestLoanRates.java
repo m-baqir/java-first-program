@@ -22,7 +22,7 @@ public class BestLoanRates {
     }
     public static float getRates(int loanTermInYears){
         if (bestRates.containsKey(loanTermInYears)){
-            return (float) loanTermInYears;
+            return loanTermInYears;
         }
         else{
         return 0.0f;
